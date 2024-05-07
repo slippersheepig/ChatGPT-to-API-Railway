@@ -13,4 +13,5 @@ COPY --from=builder /cta/freechatgpt .
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /etc/localtime /etc/localtime
 COPY --from=builder /etc/timezone /etc/timezone
+COPY api_keys.txt .
 CMD [ "./freechatgpt" ]
