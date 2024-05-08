@@ -19,7 +19,10 @@ https://github.com/xqdoo00o/ChatGPT-to-API
   + 网页左上方你会发现Apply 2 changes，点击其右侧的Deploy
   + 等待几分钟，点击项目名下方的Deployments，如果状态已变为Active，点击右侧的View Logs，如果发现最后一行显示正在监听0.0.0.0:8080，则表示部署成功
   + 点击项目名下方的Settings，下拉到Networking选项，Public Networking处点击Generate Domain，出来的XXX-production.up.railway.app就是API访问地址了
-- 三、注意事项
+- 三、或者，你也可以直接点击下方按钮一键在[Railway](https://railway.app)中部署
+  + [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Yxd_qk?referralCode=5JJc9I)
+  + 注意，一键部署项目，API KEY固定为`sk-mjj`，并且无法使用账号登录功能
+- 四、注意事项
   + API访问地址为`https://XXX-production.up.railway.app/v1/chat/completions`，API KEY为你在`api_keys.txt`里设置的KEY
   + 版权归xqdoo00o所有，更多信息请查看作者项目
   + 关于谷歌等第三方登录账号如何部署及其他问题请参考作者项目说明，本项目恕不解答，请谅解
