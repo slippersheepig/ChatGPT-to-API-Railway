@@ -1,5 +1,6 @@
 使用[Railway](https://railway.app)免费部署，从ChatGPT网站模拟使用API（默认不登录账号使用）  
-https://github.com/xqdoo00o/ChatGPT-to-API  
+如需本地部署请访问https://github.com/slippersheepig/ChatGPT-to-API  
+源码https://github.com/xqdoo00o/ChatGPT-to-API  
 ### 使用步骤
 - 一、登录你的github，新建一个**私有**的空白repository，将本项目的`Dockerfile`和`api_keys.txt`复制到你的项目
   + `api_keys.txt`里的内容可以编辑，用于API鉴权
