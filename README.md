@@ -25,5 +25,15 @@
   + 注意，一键部署项目，API KEY固定为`sk-mjj`，并且无法使用账号登录功能
 - 四、注意事项
   + API访问地址为`https://XXX-production.up.railway.app/v1/chat/completions`，API KEY为你在`api_keys.txt`里设置的KEY
+    + 常见项目使用方法如下
+      + https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web
+        + OPENAI_API_KEY=`api_keys.txt`里填写的KEY
+        + BASE_URL=https://XXX-production.up.railway.app
+      + https://github.com/Chanzhaoyu/chatgpt-web
+        + OPENAI_API_KEY=`api_keys.txt`里填写的KEY
+        + OPENAI_API_BASE_URL=https://XXX-production.up.railway.app
+      + https://github.com/RockChinQ/QChatGPT
+        + "keys": { "openai": ["`api_keys.txt`里填写的KEY"] }
+        + "openai-chat-completions": { "base-url": "https://XXX-production.up.railway.app/v1" }
   + 版权归xqdoo00o所有，更多信息请查看作者项目
   + 关于谷歌等第三方登录账号如何部署及其他问题请参考作者项目说明，本项目恕不解答，请谅解
