@@ -8,10 +8,12 @@
     + 在repository新建`harPool`文件夹，将`chatgpt.com.har`文件上传到文件夹内，并且Dockerfile倒数第二行新起一行增加`COPY harPool/ /cta/harPool/`
     + 在repository新建`accounts.txt`文件，按如下格式录入保存账号信息，并且Dockerfile倒数第二行新起一行增加`COPY accounts.txt .`
       ```bash
-      邮箱:密码
-      邮箱:密码
+      邮箱A:密码
+      邮箱B:密码:2
+      邮箱C:密码:2/5
       ...
       ```
+    + 密码后的数字表示轮询次数，默认为1次。上例表示第一次对话使用账户A，而后两次对话使用账户B，账户C为Teams账户，接着五次对话使用账户C的Teams，然后两次使用账户C的个人，如此循环。
   + 你也可以直接fork本仓库（不建议，因为非付费github用户fork完之后无法设为私有，你的项目存在隐私泄露及滥用的风险，尤其是如果添加了账号信息则相当于完全公开了）
 - 二、打开[Railway](https://railway.app)，右上角点击login选择github方式登录，右上方继续点击New Project，按如下说明操作
   + 点击Deploy from Github repo，选择你第一步建立的仓库
