@@ -1,3 +1,5 @@
+> 如需使用refresh_token，则需新建cookies.json文件并填写对应信息，详见作者项目
+
 使用[Railway](https://railway.app)免费部署，从ChatGPT网站模拟使用API（默认不登录账号使用）  
 如需本地部署请访问https://github.com/slippersheepig/ChatGPT-to-API  
 源码https://github.com/xqdoo00o/ChatGPT-to-API  
