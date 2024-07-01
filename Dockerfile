@@ -4,6 +4,7 @@ RUN apk add --no-cache git ca-certificates tzdata
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone
 RUN git clone https://github.com/xqdoo00o/ChatGPT-to-API.git /cta
+RUN cd /cta && git reset --hard c4f8a420e40a5ff434d9f8a9b91803155a0c97c5
 RUN cd /cta && go build
 
 FROM scratch
