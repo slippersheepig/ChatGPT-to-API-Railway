@@ -1,3 +1,8 @@
+> [!TIP]
+> 2024.7.9更新 使用[chat2api](https://github.com/lanqian528/chat2api#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)项目进行Railway部署，可直接在环境变量传递参数（例如refresh_token），无需本地创建文件，更方便好用
+> 
+> 点击部署[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/Q9R9Rg?referralCode=5JJc9I)
+
 > 如需使用refresh_token，则需新建cookies.json文件并填写对应信息，详见作者项目
 
 使用[Railway](https://railway.app)免费部署，从ChatGPT网站模拟使用API（默认不登录账号使用）  
